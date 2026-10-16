@@ -1,5 +1,4 @@
-# Hypermedia-project_Part_1
-Project Analysis:
+# Project Analysis and Figma Link
 
 # - Project analysis, User profile:
 
