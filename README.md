@@ -22,3 +22,4 @@ In the Figma project, you can see that I used color variables (there aren't many
 
 https://www.figma.com/design/wQtLfS96Odkewr6Z5cydwO/Sin-t%C3%ADtulo?node-id=0-1&t=QSfvPLnTyw6UJ145-1    
 
+Public link web: https://damiaponsgaitan.github.io/Hypermedia_project_1/ 
