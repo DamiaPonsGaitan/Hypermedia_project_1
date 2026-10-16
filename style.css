@@ -1,1 +1,277 @@
+/* GENERAL STYLES */
+* {
+   margin: 0;    
+}
 
+:root {
+   --color-primary: #FF9B00;
+   --color-secondary: #000;
+   --color-tertiary: #FFF;
+   --color-link: #007bff;
+   --color-link-hover: #b30000;
+   --color-background-cards: rgba(255, 255, 255, 0.2);
+   --color-background-cards-active: rgba(255, 255, 255, 0.8);
+}
+
+body {
+   background-color: var(--color-primary); 
+   margin: 0;
+   font-family: Arial, sans-serif;
+}
+
+.cv-container {
+   width: 100%;
+   background-color: var(--color-primary);
+   position: relative;
+   min-height: 100vh;
+}
+
+/* HEADER SECTION */
+.header-wrapper, .main-wrapper {
+   width: 70%;
+   margin: 0 auto; 
+   max-width: 1200px; 
+}
+
+.header {
+   /* image is under the color black for the white text */
+   background-image:
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), /* he posat color per sobre de la imatge perqeu es pugi llegir millor el text */
+      url('background.jpg');  
+   background-size: cover;
+   background-position: center;
+   width: 100%; 
+   padding: 120px 0 50px 0; 
+}
+
+.header-wrapper {
+   font-size: 25px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   gap: 10px;
+   color: var(--color-tertiary);
+}
+
+.header h1 {
+   font-size: 90px;
+}
+
+.header h3 {
+   font-size: 30px;
+   font-weight: normal;
+}
+
+/* MAIN CONTENT */
+.main-content {
+   width: 100%; 
+   padding: 40px 0;
+}
+
+.main-wrapper {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.title {
+   color: var(--color-secondary);
+   font-size: 30px;
+   font-weight: bold;
+   text-align: center;
+   padding: 5px;
+   margin-bottom: 20px;
+}
+
+/* ABOUT ME SECTION */
+.about-section {
+   display: flex;
+   gap: 30px;
+   align-items: center;
+}
+
+.about-section img {
+   width: 200px;
+   border-radius: 40px;
+}
+
+.about-text-container {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+}
+
+.about-text-container p {
+   margin-top: 10px;
+   font-size: 18px;
+   text-align: justify;
+}
+
+.contact-container {
+   border: 2px dashed var(--color-secondary);
+   border-radius: 20px;
+   padding: 10px 30px;
+}
+.contact-container .title {
+   margin-bottom: 10px;
+}
+.contact-container p {
+   font-size: 18px;
+   text-align: center;
+}
+
+/* PROJECTS SECTION */
+.projects-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+   justify-content: space-between;
+   gap: 15px;
+}
+
+.project-card {
+   background-color: var(--color-background-cards);
+   border: 2px solid var(--color-secondary);
+   border-radius: 20px; 
+   position: relative; 
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.project-card:hover, .education-box:hover, .languages-box:hover, .tag:hover {
+   background-color: var(--color-background-cards-active);
+}
+
+.card-title {
+   color: var(--color-secondary);
+   font-size: 24px;
+   margin: 0 0 15px 0;
+   padding-bottom: 5px;
+}
+
+.card-text {
+   font-size: 16px;
+   margin: 0 10px 20px 10px;
+}
+
+.card-year {
+   position: absolute;
+   bottom: -16px; 
+   background-color: var(--color-tertiary);
+   color: var(--color-secondary);
+   border: 2px solid var(--color-secondary);
+   font-weight: bold;
+   font-size: 16px;
+   padding: 4px 12px;
+   border-radius: 6px;
+}
+.card-year a {
+   text-decoration: none;
+   color: var(--color-link);
+}
+
+.card-year a:hover {
+   color: var(--color-link-hover);
+   text-decoration: underline;
+}
+
+/* BOTTOM INFO (EDUCATION, LANGUAGES, SKILLS, APTITUDES) */
+.two-columns {
+   margin: 40px 0;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 25px;
+}
+
+/* FOR LEFT/RIGHT COLUMNS */
+.column {
+   display: flex;
+   flex-direction: column;
+}
+
+/* SAME BACKGROUND COLOR AND STYLE FOR THESE BOXES */
+.education-box, .languages-box, .skills-box {
+   height: 70px;
+   padding: 10px 20px 10px 20px;
+   margin-bottom: 20px;
+   background-color: var(--color-background-cards);
+   border: 2px solid var(--color-secondary);
+   border-radius: 20px;
+}
+
+/* BECAUSE THE LAST TEXT IS P AND HAS ONE MORE PADDING */
+.education-box {
+   padding-bottom: 0;
+}
+
+.languages-box {
+   height: auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 100px;
+}
+
+/* FOR SECTION INSIDE SKILLS AND APTITUDES*/
+.skills-box {
+   border: 2px solid var(--color-secondary); 
+   border-radius: 15px;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   height: 100%;
+}
+/* skills-category IS ONLY FOR H3 */
+.skills-category h3 {
+   font-size: 16px;
+   margin-bottom: 12px;
+   color: var(--color-secondary);
+   font-weight: bold;
+}
+
+.tags-container {
+   display: flex;
+   flex-wrap: wrap; 
+   gap: 10px; 
+}
+
+/* FOR EVERY TAG STYLE */
+.tag {
+   border: 1px solid var(--color-secondary);
+   border-radius: 20px; 
+   padding: 6px 14px;
+   font-size: 13px;
+   font-weight: bold;
+   color: var(--color-secondary);
+   background-color: transparent; 
+   transition: all 0.3s ease;
+}
+
+/* FOR MOBILE */
+@media (max-width: 768px) {
+   .header-wrapper, .about-section, .two-columns {
+      flex-direction: column;
+      align-items: center;
+   }
+   .header-wrapper, .main-wrapper {
+      width: 90%;
+   }
+   .two-columns {
+      grid-template-columns: 1fr;
+   }
+   .header h1{
+      font-size: 40px;
+   }
+
+   .projects-grid {
+      grid-template-columns: 1fr;
+      gap: 30px;
+   }
+
+   .project-card {
+      min-width: 170px;
+   }
+}
