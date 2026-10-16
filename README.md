@@ -1,11 +1,11 @@
 # Project Analysis and Figma Link
 
-# - Project analysis, User profile:
-
+**- Project analysis, User profile:
+**
 The final user of this website will likely be a manager or someone from human resources looking for programmers. What are they looking for and what do they expect to find? I believe these people don't have much time to browse through long websites. They want to quickly see what I can do, what technologies I use, how I program, and what I am like.
 
-# - Project analysis, Information architecture:
-
+**- Project analysis, Information architecture:
+**
 In this project, since it is a single-page website, I had to pay close attention to how I distribute the CV sections on the page so that everything fits well. First of all, I focused on knowing exactly what information to put in the CV. Once I had the information, I decided to create boxes without text to lay out the page, I think this step is the most important. The entire page reads from top to bottom: about me and contact info at the top, projects in the middle, and the rest at the bottom. Once I know what to put and where, I replace the boxes with texts, giving them properties, colors, and sizes. In Figma, I always start with a freeform layout, then I group them using auto layout and its properties to make the transition from Figma to HTML/CSS easier. I have labeled each layout in Figma with the CSS tag it refers to.
 
 # - Project analysis, Visual design: 
