@@ -1,7 +1,7 @@
 # Project Analysis and Figma Link
 
-**- Project analysis, User profile:
-**
+**- Project analysis, User profile:**
+
 The final user of this website will likely be a manager or someone from human resources looking for programmers. What are they looking for and what do they expect to find? I believe these people don't have much time to browse through long websites. They want to quickly see what I can do, what technologies I use, how I program, and what I am like.
 
 **- Project analysis, Information architecture:
