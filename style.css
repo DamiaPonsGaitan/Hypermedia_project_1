@@ -4,13 +4,13 @@
 }
 
 :root {
-   --color-primary: #FF9B00;
+   --color-primary: #CAD6B4;
    --color-secondary: #000;
    --color-tertiary: #FFF;
    --color-link: #007bff;
    --color-link-hover: #b30000;
-   --color-background-cards: rgba(255, 255, 255, 0.2);
-   --color-background-cards-active: rgba(255, 255, 255, 0.8);
+   --color-background-cards: rgba(178, 209, 128, 0.2);
+   --color-background-cards-active: rgba(178, 209, 128, 0.8);
 }
 
 body {
