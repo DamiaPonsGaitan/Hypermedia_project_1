@@ -16,6 +16,8 @@ I also decided not to include an "Experience" section since my only experience i
 
 As for the colors, I wanted to convey a sense of tranquility and find a color that invites people to read my CV rather than being aggressive, that's why I chose this green, combined with a darker green to highlight some boxes.
 
+In this project, I used my own pictures.
+
 # - Link to the Figma project:
 
 In the Figma project, you can see that I used color variables (there aren't many in this design). I used variables for the texts so it's easier to modify them. You can also see how I planned the layout for the HTML/CSS and an image I used as a reference for background image (header).
