@@ -2,7 +2,7 @@
 
 # - Project analysis, User profile:
 
-The final user of this website will likely be a manager or someone from human resources looking for programmers. What are they looking for and what do they expect to find? I believe these people don't have much time to browse through long websites. They want to quickly see what I can do, what technologies I use, how I program, and what I am like.
+The "Persona" of this website will likely be a manager or someone from human resources looking for programmers. What are they looking for and what do they expect to find? I believe these people don't have much time to browse through long websites. They want to quickly see what I can do, what technologies I use, how I program, and what I am like.
 
 # - Project analysis, Information architecture:
 
@@ -10,11 +10,11 @@ In this project, since it is a single-page website, I had to pay close attention
 
 # - Project analysis, Visual design:
 
-To decide on the specific design I used, the colors, and all the decisions I had to make, I did this: first, I looked for inspiration. I saw some designs that used a background image in the header and I liked it. I wasn't very sure where to put the contact information, and finally, I decided it had to be very visual and not too discreet based on the "user persona". I decided to explain the projects with one sentence and a title so their eyes are drawn straight there and they don't feel too lazy to read it (links to projects too).
+To decide on the specific design I used, the colors, and all the decisions I had to make, I did this: first, I looked for inspiration. I saw some designs that used a background image in the header and I liked it. I wasn't very sure where to put the contact information, and finally, I decided it had to be very visual and not too discreet based on the "user persona". I decided to explain the projects with one sentence and a title so their eyes are drawn straight there and they don't feel too lazy to read it (some projects are linked in case they want to visit the website and get more information about each project).
 
 I also decided not to include an "Experience" section since my only experience in this sector is the personal projects I've done, and I prefer removing the section than leaving it empty or making things up. Finally, I decided to divide the bottom part into 3, since it contains less information and doesn't need as much explanation, using boxes and tags for the skills and aptitudes to make it more visual.
 
-For the colors, I looked for a color that makes a bit of an impact (I was debating between this or a light gray). As for typography, I have always liked using Arial to avoid compatibility issues and ensure it is easily readable.
+As for the colors, I wanted to convey a sense of tranquility and find a color that invites people to read my CV rather than being aggressive, that's why I chose this green, combined with a darker green to highlight some boxes.
 
 # - Link to the Figma project:
 
