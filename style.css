@@ -8,8 +8,8 @@
    --color-tertiary: #FFF;
    --color-link: #007bff;
    --color-link-hover: #b30000;
-   --color-background-cards: rgba(178, 209, 128, 0.2);
-   --color-background-cards-active: rgba(178, 209, 128, 0.8);
+   --color-background-cards: rgba(178, 209, 128, 0.5);
+   --color-background-cards-active: rgba(178, 209, 128, 0.9);
 }
 
 body {
